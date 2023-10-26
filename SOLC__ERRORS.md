@@ -9,7 +9,7 @@ $ solc --base-path . --allow-paths .  @openzeppelin=node_modules/@openzeppelin .
 
 
 # PROBLEM NO 2: HOW TO NOT GET SOLC IMPORT ERRORS ?
-## Not sure, maybe moving all projects into any other directory beyond the tob main dir solves the sh!t
+## Not sure,  moving all projects into any other directory beyond the tob main dir solves the sh!t, coz later below method stopped working
 
 
 **[PHIND](https://www.phind.com/search?cache=umnoretjgp1c07hpywmeqyiw)**
