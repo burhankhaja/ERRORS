@@ -12,6 +12,8 @@ $ solc --base-path . --allow-paths .  @openzeppelin=node_modules/@openzeppelin .
 ## Not sure,  moving all projects into any other directory beyond the tob main dir solves the sh!t, coz later below method stopped working
 
 
+**If i encounter this sh!t again, im gonna test whether echidna behaves same as solc**
+
 **[PHIND](https://www.phind.com/search?cache=umnoretjgp1c07hpywmeqyiw)**
 
 command
