@@ -1,3 +1,6 @@
+# sender: ["0x10000", "0x20000", "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4"]
+
+
 ```config.yaml
 testMode: assertion                                                                                                                                               
 corpusDir: repo                                                                                                                                             
