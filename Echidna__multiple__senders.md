@@ -73,7 +73,10 @@ contract Fuzz {
 
         // Testing If Sender is Simulated 
         emit bowl(sender.getCalled());
-        assert(!sender.getCalled());   // of Course sender is simulated, where the set function was only callable by ..c4 address and it got triggered
+        assert(!sender.getCalled());
+
+        // of Course sender is simulated,
+        //where the set function was only callable by ..c4 address and it got triggered
     }
 }
 
