@@ -1,7 +1,7 @@
-testMode: assertion
-corpusDir: repo
-balanceContract: 1010e18
-allContracts: true
+testMode: assertion                                                                                                                                               
+corpusDir: repo                                                                                                                                             
+balanceContract: 1010e18                                                                                                                                             
+allContracts: true                                                                                                                                             
 **sender: ["0x10000", "0x20000", "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4"]**
 
 Use that sender flag and the limitation of external testing's single msg.sender is bypassed
