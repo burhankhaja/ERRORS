@@ -1,6 +1,13 @@
 # sender: ["0x10000", "0x20000", "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4"]
 
+While Using external testing in echidna, the problem was the msg.sender was not diversified, only our fuzz contracts address
+was used.
 
+Now The Pranks Were not that effective on Wide And Random System Level Invariants because a fuzzer can just prank on itself,
+So the best Ally here is to just use this sender config with any addresses you want to simulate and baaam baby!!!
+
+
+**Config.yaml**
 ```config.yaml
 testMode: assertion                                                                                                                                               
 corpusDir: repo                                                                                                                                             
@@ -12,7 +19,7 @@ sender: ["0x10000", "0x20000", "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4"]
 Use that sender flag and the limitation of external testing's single msg.sender is bypassed
 That is it
 
-# Proved Using Above Config on This contract
+
 
 **Target contract**
 
