@@ -1,1 +1,1 @@
-Every Error Tacked related to echinda
+## GETTING ECHIDNA ERRORS, COME HERE BABY
