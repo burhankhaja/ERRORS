@@ -6,7 +6,7 @@ export PATH=$PATH: /home/whoami/.local/bin/solc
 ## `Helper Commands`
 - `which solc`
   ```cmd.sh
-  /home/whoami/.local/bin/solc                                        #path of solc 
+  /home/whoami/.local/bin/solc   #path of solc 
   ```
 - `$PATH`
   ```cmd.sh
