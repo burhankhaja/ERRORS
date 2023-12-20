@@ -4,11 +4,11 @@ export PATH=$PATH: /home/whoami/.local/bin/solc
 ```
 
 ## `Helper Commands`
-- `which solc` => path of solc echo 
+- `which solc`
   ```cmd
-  /home/whoami/.local/bin/solc
+  /home/whoami/.local/bin/solc                                        //path of solc 
   ```
-- `$PATH` => list of path dirs example
+- `$PATH`
   ```cmd
-  /home/whoami/.local/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/ usr/games:/home/whoami/.dotnet/tools:/home/whoami/.foundry/bin
+  /home/whoami/.local/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/ usr/games:/home/whoami/.dotnet/tools:/home/whoami/.foundry/bin          //list of path-dirs 
   ```
