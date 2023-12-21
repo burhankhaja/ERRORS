@@ -1,6 +1,6 @@
 ## `Lets Say I Have To Add Solc Path`
 ```cmd
-export PATH=$PATH: /home/whoami/.local/bin/solc
+export PATH=$PATH:/home/whoami/.local/bin/solc
 ```
 
 ## `Helper Commands`
